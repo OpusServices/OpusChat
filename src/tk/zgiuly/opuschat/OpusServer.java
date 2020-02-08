@@ -11,6 +11,7 @@ public class OpusServer {
     public static final String ROOT = System.getProperty("user.dir");
     public static final Logger logger = Logger.getLogger(OpusServer.class.getName());
     public static final Config config = new Config();
+    public static final String PREFIX = "Server: ";
 
     public static void main(String[] args) {
         logger.setLevel(Level.ALL);
